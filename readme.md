@@ -9,6 +9,17 @@
 5. [Data Architecture](#data-architecture)
 6. [Implementation Roadmap](#implementation-roadmap)
 
+**Core Modules Include**:
+
+- **People & Scholars** (including Prophets & Pre-Islamic Heritage), Hadith & Narration, Qur'an & Revelation
+- Fiqh & Legal Rulings, Seerah & Historical Timeline, Arabic Language & Grammar
+- Comparative Religion, Isnād & Ijāzah Registry, Manuscripts & Historical Sources
+- Language & Lexicon Layer, Timeline & Historical Chronology, Sectarian & Intellectual Schools
+- **Fiqh & Sects Family Trees**, Books & Texts, Institutions & Madrasas
+- Events & Places, Modern Scholars & Da'wah, Cross-References & Comparative Links
+- Scholarly Opinions & Disagreements, Contemporary Knowledge Integration, Ontology & Semantic Layer
+- **Community Contribution & Validation System**
+
 ---
 
 ## Project Vision
@@ -23,31 +34,45 @@ MuslimTree.org is an all-in-one Islamic research and knowledge platform that uni
 
 ### 1. People & Scholars Module
 
-**Purpose**: Central hub for all Islamic scholars, narrators, and knowledge transmitters throughout history.
+**Purpose**: Central hub for all Islamic scholars, narrators, knowledge transmitters, and prophetic figures throughout history.
 
 **Core Entities**:
 
-- Scholars, Teachers, Students
-- Narrators (Ruwāt)
-- Dā'īs, Authors, Speakers
-- Modern Alims and Contemporary Scholars
+- **Prophets & Prophetic Families**: All prophets mentioned in Qur'an and their family lineages
+- **Pre-Islamic Prophetic Heritage**: Prophetic families before Prophet Muhammad ﷺ
+- **Companions (Sahabah)**: Direct companions of Prophet Muhammad ﷺ
+- **Scholars, Teachers, Students**: Islamic scholars throughout history
+- **Narrators (Ruwāt)**: Hadith transmitters and chains
+- **Dā'īs, Authors, Speakers**: Knowledge disseminators
+- **Modern Alims and Contemporary Scholars**: Present-day Islamic authorities
 
 **Key Attributes**:
 
 - **Personal Information**: Name, Titles, Kunya, Laqab
 - **Temporal Data**: Birth & Death Dates (Hijri & Gregorian)
 - **Geographic Data**: Places lived/traveled, study locations
-- **Relationships**: Teachers and Students networks
+- **Prophetic Status**: Prophet, companion, scholar, narrator classification
+- **Relationships**: Teachers and Students networks, family lineages
 - **Works**: Authored or transmitted texts
 - **Reliability**: Grading for narrators
 - **Travel History**: Riḥla documentation
+
+**Prophetic Family Trees**:
+
+- **Adam (عليه السلام) to Nuh (عليه السلام)**: Complete prophetic lineage
+- **Ibrahim (عليه السلام) Family**: Isma'il, Ishaq, Ya'qub, Yusuf lineages
+- **Musa (عليه السلام) to Isa (عليه السلام)**: Prophetic chains
+- **Prophet Muhammad ﷺ Family**: Complete Ahl al-Bayt genealogy
+- **Pre-Islamic Prophetic Heritage**: Complete family trees from Adam to Muhammad
 
 **Core Features**:
 
 - Trace lineage of knowledge back to Prophet Muhammad ﷺ
 - Explore complete chains of teachers/students
 - Connect present-day scholars with classical chains
-- Interactive family tree visualization
+- **Prophetic Family Tree Visualization**: Complete prophetic lineages
+- **Pre-Islamic Heritage Mapping**: Prophetic families before Islam
+- Interactive family tree visualization for all categories
 
 ---
 
@@ -365,6 +390,62 @@ AAAAA-00000-000-000
 
 ---
 
+### 12.5. Fiqh & Sects Family Trees
+
+**Purpose**: Comprehensive visualization of Islamic legal schools and sectarian development with complete family trees and evolutionary branches.
+
+**Core Data**:
+
+- **Complete Fiqh Family Trees**: Full genealogical development of all madhhabs
+- **Sectarian Evolution**: Historical development of Islamic sects and movements
+- **Scholar Lineages**: Complete chains of teachers and students within each school
+- **Methodological Development**: Evolution of legal reasoning and principles
+
+**Sunni Madhhab Family Trees**:
+
+- **Hanafi Madhhab**: Complete lineage from Imam Abu Hanifa to contemporary scholars
+- **Maliki Madhhab**: Complete lineage from Imam Malik to modern representatives
+- **Shafi'i Madhhab**: Complete lineage from Imam al-Shafi'i to present-day scholars
+- **Hanbali Madhhab**: Complete lineage from Imam Ahmad ibn Hanbal to contemporary authorities
+
+**Shia Sectarian Family Trees**:
+
+- **Twelver Shia (Imamiyya)**: Complete 12 Imam lineage with all branches
+- **Ismaili Shia**: Complete Ismaili Imam lineages and branches
+- **Zaydi Shia**: Complete Zaydi Imam lineage and development
+- **Other Shia Traditions**: Complete family trees for all Shia sects
+
+**Sufi Silsilah (Spiritual Lineage) Trees**:
+
+- **Major Sufi Orders**: Complete silsilah chains from Prophet Muhammad ﷺ to contemporary shaykhs
+- **Regional Variations**: Different branches and regional developments
+- **Contemporary Shaykhs**: Active spiritual guides and their complete lineages
+
+**Modern Islamic Movements**:
+
+- **Salafi Movement**: Complete family tree from foundational scholars to contemporary branches
+- **Deobandi Movement**: Complete lineage from founding to global network
+- **Barelvi Movement**: Complete family tree and development
+- **Other Modern Movements**: Complete family trees for all contemporary Islamic movements
+
+**Interactive Family Tree Features**:
+
+- **Visual Tree Navigation**: Interactive, zoomable family tree visualizations
+- **Branch Exploration**: Click to expand different branches and lineages
+- **Scholar Profiles**: Detailed information for each figure in the trees
+- **Timeline View**: Chronological development of schools and sects
+- **Geographic Mapping**: Visual representation of geographic spread and development
+
+**Integration with Other Modules**:
+
+- **Fiqh Rulings**: Direct links to specific legal positions of each school
+- **Hadith Usage**: How different schools use hadith evidence
+- **Qur'an Interpretation**: Different tafsir approaches across schools
+- **Contemporary Applications**: Modern fatwas and rulings from each school
+- **Historical Context**: Political, geographic, and social factors affecting development
+
+---
+
 ### 13. Books & Texts Module
 
 **Purpose**: Comprehensive collection of Islamic texts and literature.
@@ -540,6 +621,186 @@ AAAAA-00000-000-000
 - "Show all narrators who traveled to Baghdad and studied under Imam Ahmad"
 - "Find all hadith related to zakat, their isnads, and linked Qur'an verses"
 - "Trace the scholarly lineage of Shaykh X back to the Prophet ﷺ"
+
+---
+
+### 21. Community Contribution & Validation System
+
+**Purpose**: Comprehensive system allowing community members to contribute, suggest corrections, and add new content with multi-level scholarly validation.
+
+**Core Data**:
+
+- **User Contributions**: New content, corrections, and additions from community members
+- **Validation Workflows**: Multi-level approval processes with scholarly oversight
+- **Quality Control**: Peer review and expert validation systems
+- **Contribution Tracking**: Complete history of all community contributions
+
+**Contribution Categories**:
+
+**1. Content Additions**:
+
+- **New Hadith**: Adding previously unrecorded hadith with isnad
+- **New Scholars**: Adding information about scholars not in database
+- **New Schools**: Adding new madhhabs, Sufi orders, or Islamic movements
+- **New Fatwas**: Contemporary fatwas from verified scholars
+- **New Manuscripts**: Information about newly discovered sources
+- **New Institutions**: Islamic centers, madrasas, and organizations
+
+**2. Content Corrections**:
+
+- **Hadith Corrections**: Fixing matn, isnad, or grading errors
+- **Scholar Information**: Correcting biographical details, dates, relationships
+- **Fiqh Rulings**: Updating or correcting legal positions
+- **Historical Events**: Correcting dates, locations, or details
+- **Family Trees**: Adding missing branches or correcting relationships
+
+**3. Content Enhancements**:
+
+- **Additional Sources**: Adding new references or citations
+- **Cross-References**: Creating new connections between existing content
+- **Translations**: Adding content in new languages
+- **Contextual Information**: Adding historical, geographical, or cultural context
+
+**Validation System**:
+
+**1. Multi-Level Validation Process**:
+
+- **Level 1**: Automated content screening and basic validation
+- **Level 2**: Community peer review by qualified members
+- **Level 3**: Expert review by specialized scholars
+- **Level 4**: Final approval by senior ulama committee
+- **Level 5**: Publication and integration into main database
+
+**2. Validation Requirements by Content Type**:
+
+- **Hadith**: Minimum 3 qualified muhaddithūn approval
+- **Scholar Information**: Minimum 2 biographical experts approval
+- **Fiqh Rulings**: Minimum 3 qualified fuqaha approval
+- **New Schools/Movements**: Minimum 4 senior scholars approval
+- **Fatwas**: Minimum 2 qualified muftis approval
+- **Historical Events**: Minimum 2 Islamic historians approval
+
+**3. Scholar Validation Network**:
+
+- **Primary Validators**: Senior ulama with verified credentials
+- **Specialized Validators**: Experts in specific fields (hadith, fiqh, history)
+- **Regional Validators**: Scholars with expertise in specific geographic areas
+- **Contemporary Validators**: Scholars specializing in modern Islamic movements
+
+**User Contribution Interface**:
+
+**1. Contribution Portal**:
+
+- **Easy Submission Forms**: User-friendly interfaces for different content types
+- **Template-Based Input**: Structured forms ensuring data quality
+- **Source Documentation**: Required fields for sources and references
+- **Preview System**: Users can preview their contributions before submission
+
+**2. Contribution Management**:
+
+- **Personal Dashboard**: Track all user contributions and their status
+- **Edit Capability**: Users can edit contributions during review process
+- **Withdrawal Option**: Users can withdraw contributions before final approval
+- **Contribution History**: Complete record of all user contributions
+
+**3. Community Collaboration**:
+
+- **Discussion Forums**: Community discussion about contributions
+- **Peer Review System**: Qualified community members can review submissions
+- **Collaborative Editing**: Multiple users can work on same contribution
+- **Voting System**: Community voting on controversial contributions
+
+**Quality Assurance & Moderation**:
+
+**1. Content Screening**:
+
+- **Automated Checks**: Plagiarism detection, format validation
+- **Community Flagging**: Users can flag inappropriate or incorrect content
+- **Expert Review**: All flagged content reviewed by qualified scholars
+- **Appeal Process**: Users can appeal rejected contributions
+
+**2. Validation Transparency**:
+
+- **Public Review Process**: Transparent validation workflow
+- **Expert Credentials**: Public display of validator qualifications
+- **Validation Comments**: Public record of validation decisions
+- **Appeal Mechanisms**: Clear process for challenging decisions
+
+**3. Continuous Improvement**:
+
+- **Validator Performance Tracking**: Monitor validation quality and consistency
+- **Community Feedback**: Regular feedback on validation process
+- **Process Refinement**: Continuous improvement of validation workflows
+- **Training Programs**: Regular training for validators and community members
+
+**Incentives & Recognition**:
+
+**1. Contribution Recognition**:
+
+- **Contribution Badges**: Recognition for different types of contributions
+- **Scholar Status**: Elevated status for consistent quality contributions
+- **Public Recognition**: Acknowledgment of major contributions
+- **Academic Credit**: Proper attribution for research contributions
+
+**2. Community Engagement**:
+
+- **Leaderboards**: Recognition of top contributors
+- **Expert Status**: Qualified contributors can become validators
+- **Collaboration Opportunities**: Connect with other contributors
+- **Research Partnerships**: Opportunities for collaborative research
+
+**3. Quality Incentives**:
+
+- **Validation Priority**: High-quality contributors get faster validation
+- **Editorial Access**: Qualified contributors get enhanced editing capabilities
+- **Beta Features**: Early access to new platform features
+- **Scholarly Network**: Access to network of Islamic scholars
+
+**Technical Implementation**:
+
+**1. Workflow Management**:
+
+- **State Machine**: Track contribution through validation stages
+- **Notification System**: Keep contributors informed of progress
+- **Version Control**: Track all changes and modifications
+- **Rollback Capability**: Ability to revert to previous versions
+
+**2. Integration & Publishing**:
+
+- **Automatic Integration**: Approved content automatically integrated
+- **Cross-Reference Updates**: Automatic update of related content
+- **Search Index Updates**: Real-time search index updates
+- **API Synchronization**: Immediate availability through APIs
+
+**3. Data Integrity**:
+
+- **Backup Systems**: Complete backup of all contributions
+- **Audit Trails**: Complete record of all changes and approvals
+- **Conflict Resolution**: Systems for handling conflicting contributions
+- **Data Consistency**: Automated checks for data consistency
+
+**Benefits of This System**:
+
+**1. For the Platform**:
+
+- **Continuous Growth**: Platform grows with community contributions
+- **Quality Assurance**: Multi-level validation ensures content quality
+- **Community Ownership**: Users feel invested in platform success
+- **Diverse Perspectives**: Multiple viewpoints enrich content
+
+**2. For Contributors**:
+
+- **Knowledge Sharing**: Platform for sharing Islamic knowledge
+- **Recognition**: Public acknowledgment of contributions
+- **Learning Opportunity**: Learn from validation process
+- **Community Building**: Connect with other Islamic scholars
+
+**3. For Users**:
+
+- **Fresh Content**: Regular updates and new information
+- **Quality Assurance**: Validated and approved content
+- **Community Engagement**: Active and growing platform
+- **Comprehensive Coverage**: Expanding coverage of Islamic knowledge
 
 ---
 
