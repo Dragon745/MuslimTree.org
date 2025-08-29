@@ -11,14 +11,28 @@
 
 **Core Modules Include**:
 
-- **People & Scholars** (including Prophets & Pre-Islamic Heritage), Hadith & Narration, Qur'an & Revelation
-- Fiqh & Legal Rulings, Seerah & Historical Timeline, Arabic Language & Grammar
-- Comparative Religion, Isnād & Ijāzah Registry, Manuscripts & Historical Sources
-- Language & Lexicon Layer, Timeline & Historical Chronology, Sectarian & Intellectual Schools
-- **Fiqh & Sects Family Trees**, Books & Texts, Institutions & Madrasas
-- Events & Places, Modern Scholars & Da'wah, Cross-References & Comparative Links
-- Scholarly Opinions & Disagreements, Contemporary Knowledge Integration, Ontology & Semantic Layer
-- **Community Contribution & Validation System**
+- **[1. People & Scholars](#1-people--scholars-module)** (including Prophets & Pre-Islamic Heritage)
+- **[2. Hadith & Narration](#2-hadith--narration-module)** with MT-ID numbering system
+- **[3. Qur'an & Revelation](#3-quran--revelation-module)** with comprehensive tafsir
+- **[4. Fiqh & Legal Rulings](#4-fiqh--legal-rulings-module)** with comparative madhhab analysis
+- **[5. Seerah & Historical Timeline](#5-seerah--historical-timeline-module)** with interactive exploration
+- **[6. Arabic Language & Grammar](#6-arabic-language--grammar-module)** with linguistic foundation
+- **[7. Comparative Religion](#7-comparative-religion-module)** with interfaith understanding
+- **[8. Isnād & Ijāzah Registry](#8-isnād--ijāzah-registry)** with complete transmission chains
+- **[9. Manuscripts & Historical Sources](#9-manuscripts--historical-sources)** with digital preservation
+- **[10. Language & Lexicon Layer](#10-language--lexicon-layer)** with semantic understanding
+- **[11. Timeline & Historical Chronology](#11-timeline--historical-chronology)** with visual navigation
+- **[12. Sectarian & Intellectual Schools](#12-sectarian--intellectual-schools)** with comprehensive coverage
+- **[13. Fiqh & Sects Family Trees](#13-fiqh--sects-family-trees)** with complete genealogical development
+- **[14. Books & Texts](#14-books--texts-module)** with comprehensive collections
+- **[15. Institutions & Madrasas](#15-institutions--madrasas)** with historical documentation
+- **[16. Events & Places](#16-events--places)** with geographic mapping
+- **[17. Modern Scholars & Da'wah](#17-modern-scholars--dawah)** with contemporary connections
+- **[18. Cross-References & Comparative Links](#18-cross-references--comparative-links)** with multi-dimensional connections
+- **[19. Scholarly Opinions & Disagreements](#19-scholarly-opinions--disagreements)** with evidence-based analysis
+- **[20. Contemporary Knowledge Integration](#20-contemporary-knowledge-integration)** with modern applications
+- **[21. Ontology & Semantic Layer](#21-ontology--semantic-layer)** with unified knowledge graph
+- **[22. Community Contribution & Validation System](#22-community-contribution--validation-system)** with multi-level scholarly validation
 
 ---
 
@@ -390,7 +404,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 12.5. Fiqh & Sects Family Trees
+### 13. Fiqh & Sects Family Trees
 
 **Purpose**: Comprehensive visualization of Islamic legal schools and sectarian development with complete family trees and evolutionary branches.
 
@@ -446,7 +460,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 13. Books & Texts Module
+### 14. Books & Texts Module
 
 **Purpose**: Comprehensive collection of Islamic texts and literature.
 
@@ -466,7 +480,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 14. Institutions & Madrasas
+### 15. Institutions & Madrasas
 
 **Purpose**: Documentation of Islamic centers of learning throughout history.
 
@@ -484,7 +498,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 15. Events & Places
+### 16. Events & Places
 
 **Purpose**: Historical context and geographic mapping of Islamic civilization.
 
@@ -502,7 +516,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 16. Modern Scholars & Da'wah
+### 17. Modern Scholars & Da'wah
 
 **Purpose**: Connection of contemporary Islamic scholarship with classical traditions.
 
@@ -521,7 +535,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 17. Cross-References & Comparative Links
+### 18. Cross-References & Comparative Links
 
 **Purpose**: Multi-dimensional connections across all Islamic sciences and disciplines.
 
@@ -547,7 +561,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 18. Scholarly Opinions & Disagreements
+### 19. Scholarly Opinions & Disagreements
 
 **Purpose**: Evidence-based analysis of scholarly differences and their historical context.
 
@@ -573,7 +587,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 19. Contemporary Knowledge Integration
+### 20. Contemporary Knowledge Integration
 
 **Purpose**: Integration of modern knowledge with classical Islamic sources.
 
@@ -599,7 +613,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 20. Ontology & Semantic Layer
+### 21. Ontology & Semantic Layer
 
 **Purpose**: Unified knowledge graph connecting all Islamic sciences and knowledge.
 
@@ -624,7 +638,7 @@ AAAAA-00000-000-000
 
 ---
 
-### 21. Community Contribution & Validation System
+### 22. Community Contribution & Validation System
 
 **Purpose**: Comprehensive system allowing community members to contribute, suggest corrections, and add new content with multi-level scholarly validation.
 

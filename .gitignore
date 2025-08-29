@@ -36,6 +36,7 @@ ENV/
 # IDE
 .vscode/
 .idea/
+.obsidian/
 *.swp
 *.swo
 *~
@@ -57,3 +58,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
